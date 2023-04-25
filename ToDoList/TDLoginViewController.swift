@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TDLoginViewController: UIViewController {
     
     @IBOutlet weak var submit: UIButton!
     @IBOutlet weak var password: UITextField!
