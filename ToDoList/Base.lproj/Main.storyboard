@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoA-V5-3at">
-                                <rect key="frame" x="1" y="215.33333333333337" width="392" height="175"/>
+                                <rect key="frame" x="5" y="215.33333333333337" width="383" height="175"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpK-td-aM3">
                                         <rect key="frame" x="10" y="30" width="150" height="20.333333333333329"/>
@@ -41,7 +41,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZjB-BC-tk5">
-                                        <rect key="frame" x="180" y="17.666666666666657" width="202" height="45"/>
+                                        <rect key="frame" x="180" y="17.666666666666657" width="193" height="45"/>
                                         <color key="backgroundColor" systemColor="quaternarySystemFillColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="48F-nN-IOe"/>
@@ -50,7 +50,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SFP-7D-wpC">
-                                        <rect key="frame" x="180" y="88.333333333333343" width="202" height="45"/>
+                                        <rect key="frame" x="180" y="88.333333333333343" width="193" height="45"/>
                                         <color key="backgroundColor" systemColor="quaternarySystemFillColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="FcI-bZ-3zO"/>
@@ -94,17 +94,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="aoA-V5-3at" secondAttribute="trailing" id="BOR-Fs-e7K"/>
+                            <constraint firstAttribute="trailing" secondItem="aoA-V5-3at" secondAttribute="trailing" constant="5" id="BOR-Fs-e7K"/>
                             <constraint firstItem="Rh3-yW-bzx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="OQP-FV-6Dj"/>
                             <constraint firstItem="aoA-V5-3at" firstAttribute="top" secondItem="Rh3-yW-bzx" secondAttribute="bottom" constant="50" id="OqD-DW-dJ3"/>
                             <constraint firstItem="H8z-TO-aaa" firstAttribute="top" secondItem="aoA-V5-3at" secondAttribute="bottom" constant="50" id="Ta4-WE-euX"/>
                             <constraint firstItem="H8z-TO-aaa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YfL-ar-hAO"/>
-                            <constraint firstItem="aoA-V5-3at" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="1" id="pDG-Z1-JrK"/>
+                            <constraint firstItem="aoA-V5-3at" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="5" id="pDG-Z1-JrK"/>
                             <constraint firstItem="Rh3-yW-bzx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="tdt-0w-dGr"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rh3-yW-bzx" secondAttribute="trailing" constant="25" id="wmj-qZ-w64"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginContainor" destination="aoA-V5-3at" id="1Fx-zM-D12"/>
                         <outlet property="name" destination="ZjB-BC-tk5" id="0FY-oW-Fsc"/>
                         <outlet property="nameLabel" destination="lpK-td-aM3" id="rPF-Gd-ajt"/>
                         <outlet property="password" destination="SFP-7D-wpC" id="psX-HV-5n0"/>
