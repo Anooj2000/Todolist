@@ -16,6 +16,8 @@
 		1B57701829F0EF44009F556A /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57701729F0EF44009F556A /* ToDoListTests.swift */; };
 		1B57702229F0EF44009F556A /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57702129F0EF44009F556A /* ToDoListUITests.swift */; };
 		1B57702429F0EF44009F556A /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B57702329F0EF44009F556A /* ToDoListUITestsLaunchTests.swift */; };
+		C058708329F8F66600886831 /* TDAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058708229F8F66600886831 /* TDAuthViewController.swift */; };
+		C058708529F8F70700886831 /* TDAuthTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C058708429F8F70700886831 /* TDAuthTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1B57701D29F0EF44009F556A /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B57702129F0EF44009F556A /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		1B57702329F0EF44009F556A /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C058708229F8F66600886831 /* TDAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDAuthViewController.swift; sourceTree = "<group>"; };
+		C058708429F8F70700886831 /* TDAuthTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDAuthTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				1B57700029F0EF40009F556A /* AppDelegate.swift */,
 				1B57700229F0EF40009F556A /* SceneDelegate.swift */,
 				1B57700429F0EF40009F556A /* TDLoginViewController.swift */,
+				C058708229F8F66600886831 /* TDAuthViewController.swift */,
+				C058708429F8F70700886831 /* TDAuthTabBarController.swift */,
 				1B57700629F0EF40009F556A /* Main.storyboard */,
 				1B57700929F0EF43009F556A /* Assets.xcassets */,
 				1B57700B29F0EF43009F556A /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B57700529F0EF40009F556A /* TDLoginViewController.swift in Sources */,
+				C058708529F8F70700886831 /* TDAuthTabBarController.swift in Sources */,
 				1B57700129F0EF40009F556A /* AppDelegate.swift in Sources */,
+				C058708329F8F66600886831 /* TDAuthViewController.swift in Sources */,
 				1B57700329F0EF40009F556A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
