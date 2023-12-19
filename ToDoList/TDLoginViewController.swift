@@ -22,7 +22,7 @@ class TDLoginViewController: UIViewController {
         loginContainor.layer.borderWidth = 2.0
     }
     @IBAction func submit(_ sender: Any) {
-        print("Submitted")
+        print("Action Submitted")
     }
     
 
